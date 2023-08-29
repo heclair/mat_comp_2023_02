@@ -1,0 +1,31 @@
+{
+  "name": "lista_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "um": "ts-node ./unidade01/ex01",
+    "dois": "ts-node ./unidade01/ex02",
+    "tres": "ts-node ./unidade01/ex03",
+    "quatro": "ts-node ./unidade01/ex04_hjsj",
+    "cinco": "ts-node ./unidade01/ex05_hjsj",
+    "seis": "ts-node ./unidade01/ex06_hjsj",
+    "sete": "ts-node ./unidade01/ex07_hjsj",
+    "oito": "ts-node ./unidade01/ex08_hjsj",
+    "nove": "ts-node ./unidade01/ex09_hjsj",
+    "dez": "ts-node ./unidade01/ex10_hjsj",
+    "catorze": "ts-node ./unidade01/ex14_hjsj"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "prompt-sync-history": "^1.0.1"
+  }
+}

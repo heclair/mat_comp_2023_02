@@ -1,0 +1,8 @@
+2.1. Efetue uma definição, através de enumeração, de todos os membros da sua família, considerando apenas parentesco direto de pais, irmãos e filhos. 
+
+enumeração_familia:
+    familia01 = Heclair
+    familia02 = Francisca
+    familia03 = Bruna
+    familia04 = Heclair Junior
+fim_da_enumeração
