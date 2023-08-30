@@ -25,7 +25,7 @@ class Fibonacci_hjsj {
     }
 }
 
-// Exemplo de uso
+
 const fibonacci = new Fibonacci_hjsj();
 
 console.log(fibonacci.calcularTermo_hjsj(5)); // Chamadas: 5, 4, 3, 2, 1, 0

@@ -25,7 +25,7 @@ class ProgressaoGeometrica_hjsj {
     }
 }
 
-// Exemplo de uso
+
 const razao = 2; // Razão da progressão
 const primeiroTermo = 1; // Primeiro termo da progressão
 
