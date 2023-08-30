@@ -31,3 +31,24 @@ const fibonacci = new Fibonacci_hjsj();
 console.log(fibonacci.calcularTermo_hjsj(5)); // Chamadas: 5, 4, 3, 2, 1, 0
 console.log(fibonacci.calcularTermo_hjsj(10)); // Chamadas: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
 console.log(fibonacci.calcularTermo_hjsj(5)); // Chamada repetida (usando cache)
+
+
+
+
+class Fibonacci_hjsj1 {
+    calcularTermo_hjsjH(n: number): number {
+        if (n <= 0) {
+            return 0;
+        } else if (n === 1) {
+            return 1;
+        } else {
+            return this.calcularTermo_hjsjH(n - 1) + this.calcularTermo_hjsjH(n - 2);
+        }
+    }
+}
+
+// Exemplo de uso
+const fibonacci_hjsj1 = new Fibonacci_hjsj1();
+
+console.log(fibonacci.calcularTermo_hjsj(5)); // Chamadas: 5, 4, 3, 2, 1, 0
+console.log(fibonacci.calcularTermo_hjsj(10)); // Chamadas: muitas...
