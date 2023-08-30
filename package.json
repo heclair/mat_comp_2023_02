@@ -8,7 +8,7 @@
     "sete": "ts-node ./unidade02/ex07_hjsj",
     "oito": "ts-node ./unidade02/ex08_hjsj",
     "nove": "ts-node ./unidade02/ex09_hjsj",
-    "dez": "ts-node ./unidade02/ex20_hjsj",
+    "dez": "ts-node ./unidade02/ex10_hjsj",
     "catorze": "ts-node ./unidade02/ex14_hjsj"
   },
   "keywords": [],
