@@ -52,12 +52,19 @@ console.log(`O resultado de ${varFat} fatorial é ${resultado}`);
 
 //d) Uma definição que corresponda a definição do tipo gênero-diferença para um uma pessoa que estude em uma faculdade. Utilize uma linguagem que dê suporte a herança. 
 
-class Genero_hjsj{
-    homem:string;
-    mulher:string;
-
-    constructor (homem:string, mulher:string){
-        this.homem = homem;
-        this.mulher = mulher;
+class Estudante_hjsj{
+    graduacao_hjsj(){
+        console.log("Bacharel em Engenharia")
     }
 }
+
+class Pos_grad_hjsj extends Estudante_hjsj{
+    pos(){
+        super.graduacao_hjsj();
+        console.log("pós graduado")
+    }
+}
+
+const heranca = new Pos_grad_hjsj();
+heranca.graduacao_hjsj();
+heranca.pos();
