@@ -12,7 +12,7 @@ function sequenceIterative_hjsj (n:number): number{
     let limit: number = 2;
 
     while(limit<=n){
-        term = term*2;
+        term = term+2;
         limit = limit +1;
     }
     return term;
@@ -26,7 +26,7 @@ function sequenceRecursive_hjsj(n: number): number {
     if (n == 1) {
       return 1;
     } else {
-      return 2 * sequenceRecursive_hjsj(n - 1);
+      return 2 + sequenceRecursive_hjsj(n - 1);
     }
   }
   
