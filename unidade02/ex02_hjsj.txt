@@ -1,7 +1,3 @@
 2.2. Efetue uma definição, através de enumeração, de cursos existentes na instituição de ensino em que você está estudando.
 
-enumeração_curso:
-    curso01= meio_ambiente_e_recursos_hidricos
-    curso02= geoprocessamento
-    curso03= desenvolvimento_de_software_multiplataforma
-fim_da_enumeração
+enumeração_curso ≝ {meio_ambiente_e_recursos_hidricos, geoprocessamento, desenvolvimento_de_software_multiplataforma}

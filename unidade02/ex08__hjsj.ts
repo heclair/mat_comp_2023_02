@@ -4,6 +4,8 @@ aritmética fornecido pelo professor. Faça um comparativo escrevendo um algorit
 que sejam equivalentes ao recursivo em termos de entradas e saídas mas que utilizem iteração
 ao invés de recursão. Qual sua conclusão?*/
 
+//iterativo
+
 function sequenceIterative_hjsj (n:number): number{
 
     let term: number = 1;
